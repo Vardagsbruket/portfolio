@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80vw;
+  margin: auto;
+  padding: 2rem;
+}
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}

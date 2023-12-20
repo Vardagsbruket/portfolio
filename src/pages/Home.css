@@ -1,0 +1,52 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text {
+  text-align: left;
+}
+.foto-container {
+  width: fit-content;
+  padding: 0;
+  margin-left: auto;
+}
+.foto-home {
+  max-width: 50%;
+  border-radius: 10px;
+}
+section {
+  margin-top: 20px;
+}
+h2,
+h4 {
+  margin: 0;
+}
+h2 {
+  margin-left: 50px;
+  font-size: 40px;
+}
+.more-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 32px 0px;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: left;
+  justify-content: flex-start;
+  width: 170px;
+  padding: 0.3rem;
+}
+.card ul {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.card li {
+  border: none;
+  margin: 0;
+  list-style: none;
+}
