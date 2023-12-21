@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: 1px solid black;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
   border-radius: 10px;
   width: 80vw;
   margin: auto;
@@ -20,17 +21,23 @@
   gap: 2rem;
 }
 .nav-li {
-  border: 1px solid black;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
   width: 100px;
   border-radius: 10px;
   padding: 0.3rem;
 }
 .button-header {
   text-decoration: none;
+  color: white;
 }
-.button-header .active {
+.button-header {
+  color: white;
+}
+.nav-li .active {
   text-decoration: underline;
 }
 .logo-header {
   text-decoration: none;
+  color: white;
 }

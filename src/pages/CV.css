@@ -1,0 +1,30 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  border-top: 1px solid white;
+}
+.work-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  border-top: 1px solid white;
+}
+h2 {
+  margin: 0;
+}
+.cv-subheadline {
+  font-size: 24px;
+}
+.cv-headline {
+  margin-top: 40px;
+}
+.duration {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ul {
+  margin-top: 0;
+}

@@ -38,7 +38,7 @@ export const Home = () => {
           </ul>
         </div>
         <div className="card">
-          <h3>Currently learning</h3>
+          <h3>Learning</h3>
           <ul>
             <li>Java</li>
             <li>React Redux</li>

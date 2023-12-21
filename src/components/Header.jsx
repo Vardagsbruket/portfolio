@@ -6,8 +6,8 @@ export const Header = () => {
     <div className="header">
       <div>
         <NavLink to="/" className="logo-header">
-          <h1>Diana Undén</h1>
-          <h3>Portfolio</h3>
+          <h1>Portfolio</h1>
+          <h4>Diana Undén</h4>
         </NavLink>
       </div>
       <div>

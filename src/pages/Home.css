@@ -1,10 +1,13 @@
 .home-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: space-between;
   align-items: center;
 }
 .home-text {
   text-align: left;
+  max-width: 60%;
 }
 .foto-container {
   width: fit-content;
@@ -12,7 +15,7 @@
   margin-left: auto;
 }
 .foto-home {
-  max-width: 50%;
+  max-width: 170px;
   border-radius: 10px;
 }
 section {
@@ -28,16 +31,21 @@ h2 {
 }
 .more-info {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
   padding: 32px 0px;
+  gap: 1rem;
 }
 .card {
-  border: 1px solid black;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
   border-radius: 10px;
   text-align: left;
   justify-content: flex-start;
-  width: 170px;
+  min-width: 150px;
+  max-width: 250px;
+  width: 100%;
   padding: 0.3rem;
 }
 .card ul {
