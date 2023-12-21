@@ -11,8 +11,8 @@ export const Home = () => {
 
           <section>
             <p>
-              Here you can find some more information about my experience and
-              skills as a developer.
+              Here you can find some more information about my experience,
+              skills and what I'm currently learning.
             </p>
           </section>
         </div>
