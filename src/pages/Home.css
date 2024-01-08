@@ -85,7 +85,8 @@ h2 {
 .project-image {
   max-width: 40%;
   margin: 1rem;
+  border-radius: 20px;
 }
 .link {
-  color: white;
+  color: #272635;
 }
