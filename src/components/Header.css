@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: 1px solid #d1ced9;
+  border-left: 1px solid #d1ced9;
   border-radius: 10px;
   width: 100%;
   max-width: calc(100% - 4rem);
@@ -21,19 +21,17 @@
   gap: 2rem;
 }
 .nav-li {
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
   width: 100px;
   border-radius: 10px;
   padding: 0.3rem;
+  background-color: #d1ced9;
 }
 .button-header {
   text-decoration: none;
   color: #272635;
+  font-weight: 700;
 }
-.button-header {
-  color: #272635;
-}
+
 .nav-li .active {
   text-decoration: underline;
 }

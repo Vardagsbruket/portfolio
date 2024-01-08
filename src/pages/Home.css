@@ -38,8 +38,8 @@ h2 {
   gap: 1rem;
 }
 .card {
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: 1px solid #d1ced9;
+  border-left: 1px solid #d1ced9;
   border-radius: 10px;
   text-align: left;
   justify-content: flex-start;
@@ -47,6 +47,7 @@ h2 {
   max-width: 250px;
   width: 100%;
   padding: 0.3rem;
+  background-color: #d1ced9;
 }
 .card ul {
   display: flex;
@@ -62,7 +63,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  border-top: 1px solid white;
+  border-top: 1px solid #d1ced9;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -71,7 +72,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #d1ced9;
   padding-bottom: 1rem;
 }
 .project-text {
