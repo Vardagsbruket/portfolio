@@ -3,12 +3,7 @@ export const ContactForm = () => {
   return (
     <div className="form-container">
       <h2>Send me a message</h2>
-      <form
-        name="contact"
-        netlify
-        data-netlify-honeypot="bot-field"
-        className="form"
-      >
+      <form name="contact" method="POST" data-netlify="true" className="form">
         <label>
           Your name:
           <input
