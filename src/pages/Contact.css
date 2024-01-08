@@ -1,0 +1,9 @@
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.contact-text {
+  max-width: 50%;
+  text-align: left;
+}

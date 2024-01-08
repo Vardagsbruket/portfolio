@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #d1ced9;
   border-left: 1px solid #d1ced9;
   border-radius: 10px;
@@ -25,11 +26,20 @@
   border-radius: 10px;
   padding: 0.3rem;
   background-color: #d1ced9;
+  color: #272635;
+}
+.nav-li:hover {
+  background-color: #272635;
+  color: #d1ced9;
 }
 .button-header {
   text-decoration: none;
-  color: #272635;
   font-weight: 700;
+  color: #272635;
+}
+.button-header:hover {
+  background-color: #272635;
+  color: #d1ced9;
 }
 
 .nav-li .active {

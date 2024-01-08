@@ -13,14 +13,27 @@ export const Home = () => {
       <div className="home-container">
         <div className="home-text">
           <h4>Nice to meet you,</h4>
-          <h2>I'm Diana</h2>
+          <h2 className="name">I'm Diana</h2>
           <h4>a junior Web Developer</h4>
 
           <section>
-            <p>
-              Here you can find some more information about my experience,
-              skills and what I'm currently learning.
-            </p>
+            <section>
+              Junior developer using mainly JavaScript and React. Experience
+              using React Vite, Git, Github, REST API calls, Redux, Routes, CSS
+              and HTML from my education at Technigo and Sundsgården.{" "}
+            </section>
+            <section>
+              I also have a Ba in Business and International Relations and an
+              MSc in Globalisation, environment and global change. I have more
+              than ten years of professional experience working as a project
+              manager in the public sector and within the building industry,
+              where my focus has been quality and business development,
+              communications and improved sustainability.
+            </section>
+            <section>
+              I'm goal oriented and enjoy working in teams where problem solving
+              and continuous learning are part of everyday workflow.
+            </section>
           </section>
         </div>
         <div className="foto-container">
@@ -42,6 +55,15 @@ export const Home = () => {
             <li>React</li>
             <li>Sass</li>
             <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div className="card">
+          <h3>Skills</h3>
+          <ul>
+            <li>Solution oriented</li>
+            <li>Organized</li>
+            <li>Professional English</li>
+            <li>Project management</li>
           </ul>
         </div>
         <div className="card">

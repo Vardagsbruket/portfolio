@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <h3>Contact me</h3>
-      <p>Email: diana.unden@gmail.com</p>
+
       <p>
         Github:{" "}
         <Link to="https://github.com/Vardagsbruket" className="links">

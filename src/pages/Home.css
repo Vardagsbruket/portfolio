@@ -29,6 +29,9 @@ h2 {
   margin-left: 50px;
   font-size: 40px;
 }
+.name {
+  margin-left: 45px;
+}
 .more-info {
   display: flex;
   flex-wrap: wrap;
