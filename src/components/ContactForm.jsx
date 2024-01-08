@@ -38,7 +38,7 @@ export const ContactForm = () => {
         </label>
         <div data-netlify-recaptcha="true"></div>
         <button type="submit">SUBMIT</button>
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="contact" value="contact" />
       </form>
     </div>
   );
