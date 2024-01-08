@@ -5,7 +5,8 @@
   border-bottom: 1px solid white;
   border-left: 1px solid white;
   border-radius: 10px;
-  width: 80vw;
+  width: 100%;
+  max-width: calc(100% - 4rem);
   margin: auto;
   padding: 2rem;
 }

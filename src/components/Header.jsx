@@ -18,11 +18,6 @@ export const Header = () => {
                 CV
               </NavLink>
             </li>
-            <li className="nav-li">
-              <NavLink to="/projects" className="button-header">
-                Projects
-              </NavLink>
-            </li>
           </ul>
         </nav>
       </div>

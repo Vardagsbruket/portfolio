@@ -14,10 +14,12 @@ body {
   display: flex;
   justify-content: center;
   min-width: 320px;
-
   height: 100%;
-  max-width: 80vw;
+  max-width: 80%;
   width: 100%;
   background-color: black;
   color: white;
+}
+h2 {
+  margin: 1rem;
 }
