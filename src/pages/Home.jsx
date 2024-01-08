@@ -1,10 +1,12 @@
 import FotoDiana from "../assets/Foto-Diana.jpeg";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import "./Projects.css";
 import Movies from "../assets/Movies.png";
 import ReShare from "../assets/ReShare.png";
 import Todo from "../assets/Todo.png";
+import Quiz from "../assets/Quiz.png";
+import happy_thoughts from "../assets/happy_thoughts.png";
+
 export const Home = () => {
   return (
     <>
@@ -165,9 +167,9 @@ export const Home = () => {
               </Link>
             </p>
           </div>
-          <div className="project-image">
-            <img src="" alt="" />
-          </div>
+          <Link to="https://funn-quizz.netlify.app/" className="link-image">
+            <img src={Quiz} alt="" className="project-image" />
+          </Link>
         </div>
         <div className="project-card">
           <div className="project-text">
@@ -205,9 +207,12 @@ export const Home = () => {
               </Link>
             </p>
           </div>
-          <div className="project-image">
-            <img src="" alt="" />
-          </div>
+          <Link
+            to="https://technigo-project-happy-thoughts-app.netlify.app/"
+            className="link-image"
+          >
+            <img src={happy_thoughts} alt="" className="project-image" />
+          </Link>
         </div>
         <div className="project-card">
           <div className="project-text">
