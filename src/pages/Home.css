@@ -30,6 +30,7 @@ h2 {
   font-size: 40px;
 }
 .name {
+  margin: 0;
   margin-left: 45px;
 }
 .more-info {
@@ -41,16 +42,17 @@ h2 {
   gap: 1rem;
 }
 .card {
-  border-bottom: 1px solid #d1ced9;
-  border-left: 1px solid #d1ced9;
+  border: 1px solid #272635;
   border-radius: 10px;
   text-align: left;
   justify-content: flex-start;
   min-width: 150px;
   max-width: 250px;
   width: 100%;
-  padding: 0.3rem;
-  background-color: #d1ced9;
+}
+.card h3 {
+  text-decoration: underline;
+  margin: 20px;
 }
 .card ul {
   display: flex;

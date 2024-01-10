@@ -1,20 +1,31 @@
 .footer {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   border-bottom: 1px solid #d1ced9;
-  border-left: 1px solid #d1ced9;
   border-radius: 10px;
   width: 100%;
   max-width: calc(100% - 4rem);
   margin: auto;
   padding: 2rem;
+
+  align-items: center;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 h3 {
   margin: 0;
 }
-p {
-  margin: 0;
+.fa-brands {
+  font-size: 20px;
+}
+.fa-brands:hover {
+  font-size: 28px;
 }
 .links {
   color: #272635;

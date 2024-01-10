@@ -13,16 +13,13 @@ export const Header = () => {
       <div>
         <nav>
           <ul className="nav-ul">
-            <li className="nav-li">
-              <NavLink to="/cv" className="button-header">
-                CV
-              </NavLink>
-            </li>
-            <li className="nav-li">
-              <NavLink to="/contact" className="button-header">
-                Contact
-              </NavLink>
-            </li>
+            <NavLink to="/cv" className="button-header">
+              <li className="nav-li">CV </li>
+            </NavLink>
+
+            <NavLink to="/contact" className="button-header">
+              <li className="nav-li">Contact</li>
+            </NavLink>
           </ul>
         </nav>
       </div>

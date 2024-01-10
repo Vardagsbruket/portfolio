@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./ContactForm.css";
 export const ContactForm = () => {
   return (
     <div className="form-container">

@@ -14,8 +14,10 @@ export const Home = () => {
         <div className="home-text">
           <h4>Nice to meet you,</h4>
           <h2 className="name">I'm Diana</h2>
-          <h4>a junior Web Developer</h4>
-
+          <h4>a Web Developer</h4>
+          <section>
+            <p>| JAVASCRIPT | HTML | CSS | REACT |</p>
+          </section>
           <section>
             <section>
               Junior developer using mainly JavaScript and React. Experience
@@ -74,8 +76,8 @@ export const Home = () => {
           </ul>
         </div>
       </div>
+      <h2>Projects</h2>
       <div className="project-container">
-        <h2>Projects</h2>
         <div className="project-card">
           <div className="project-text">
             <h3>ReShare</h3>

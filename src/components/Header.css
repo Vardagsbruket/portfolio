@@ -25,7 +25,7 @@
   width: 100px;
   border-radius: 10px;
   padding: 0.3rem;
-  background-color: #d1ced9;
+  border: 1px solid #272635;
   color: #272635;
 }
 .nav-li:hover {

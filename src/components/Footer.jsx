@@ -4,20 +4,19 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <div className="footer">
-      <h3>Contact me</h3>
-
-      <p>
-        Github:{" "}
+      <div className="social-media">
+        <h3>Contact me on:</h3>
         <Link to="https://github.com/Vardagsbruket" className="links">
-          github.com/Vardagsbruket
+          <i className="fa-brands fa-github"></i>
         </Link>
-      </p>
-      <p>
-        LinkedIn:{" "}
+        {""}
         <Link to="https://www.linkedin.com/in/dianaunden/" className="links">
-          linkedin.com/in/dianaunden/
+          <i className="fa-brands fa-linkedin"></i>
         </Link>
-      </p>
+      </div>
+      <div>
+        <p>Created by Diana Undén in Vite, 2024</p>
+      </div>
     </div>
   );
 };

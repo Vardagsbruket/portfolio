@@ -7,3 +7,10 @@
   max-width: 50%;
   text-align: left;
 }
+.contact-social-media {
+  display: flex;
+  gap: 1rem;
+}
+.fa-brands {
+  font-size: 20px;
+}

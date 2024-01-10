@@ -18,19 +18,22 @@ label {
 input,
 textarea {
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 10px;
   font-family: "Quicksand", sans-serif;
 }
 button {
   width: 100px;
   border-radius: 10px;
+
   padding: 0.3rem;
-  background-color: #d1ced9;
   text-decoration: none;
+
   color: #272635;
+  background-color: transparent;
   font-weight: 700;
   border: none;
   font-family: "Quicksand", sans-serif;
+  border: 1px solid #272635;
 }
 button:hover {
   background-color: #272635;
