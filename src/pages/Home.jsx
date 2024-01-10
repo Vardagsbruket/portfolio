@@ -14,15 +14,16 @@ export const Home = () => {
         <div className="home-text">
           <h4>Nice to meet you,</h4>
           <h2 className="name">I'm Diana</h2>
-          <h4>a Web Developer</h4>
+
           <section>
-            <p>| JAVASCRIPT | HTML | CSS | REACT |</p>
+            <p>| JAVASCRIPT | HTML | CSS | REACT | VITE |</p>
           </section>
           <section>
             <section>
-              Junior developer using mainly JavaScript and React. Experience
-              using React Vite, Git, Github, REST API calls, Redux, Routes, CSS
-              and HTML from my education at Technigo and Sundsgården.{" "}
+              I am a junior developer using mainly JavaScript and React. I have
+              experience in using React Vite, Git, Github, REST API calls,
+              Redux, Routes, CSS and HTML from my education at Technigo and
+              Sundsgården.{" "}
             </section>
             <section>
               I also have a Ba in Business and International Relations and an
@@ -34,7 +35,7 @@ export const Home = () => {
             </section>
             <section>
               I'm goal oriented and enjoy working in teams where problem solving
-              and continuous learning are part of everyday workflow.
+              and continuous learning are part of everyday the workflow.
             </section>
           </section>
         </div>

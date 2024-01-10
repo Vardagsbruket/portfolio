@@ -47,11 +47,10 @@ h2 {
   text-align: left;
   justify-content: flex-start;
   min-width: 150px;
-  max-width: 250px;
+  max-width: 230px;
   width: 100%;
 }
 .card h3 {
-  text-decoration: underline;
   margin: 20px;
 }
 .card ul {
