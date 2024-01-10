@@ -10,6 +10,8 @@ export const ContactForm = () => {
         data-netlify-honeypot="bot-field"
         className="form"
       >
+        <input type="hidden" name="form-name" value="contact" />
+
         <label>
           Your name:
           <input
@@ -38,7 +40,6 @@ export const ContactForm = () => {
         </label>
         <div data-netlify-recaptcha="true"></div>
         <button type="submit">SUBMIT</button>
-        <input type="hidden" name="contact" value="contact" />
       </form>
     </div>
   );
