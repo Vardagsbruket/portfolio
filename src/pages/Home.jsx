@@ -97,6 +97,7 @@ export const Home = () => {
               View it on:{" "}
               <Link
                 to="https://github.com/Vardagsbruket/ReShare"
+                target="_blank"
                 className="link"
               >
                 Github
@@ -104,6 +105,7 @@ export const Home = () => {
               or{" "}
               <Link
                 to="https://stirring-florentine-c4bb3f.netlify.app/"
+                target="_blank"
                 className="link"
               >
                 live
@@ -112,6 +114,7 @@ export const Home = () => {
           </div>
           <Link
             to="https://stirring-florentine-c4bb3f.netlify.app/"
+            target="_blank"
             className="link-image"
           >
             <img src={ReShare} alt="" className="project-image" />
@@ -139,6 +142,7 @@ export const Home = () => {
               <Link
                 to="https://github.com/Vardagsbruket/Technigo_project-todos-redux"
                 className="link"
+                target="_blank"
               >
                 Github
               </Link>{" "}
@@ -146,6 +150,7 @@ export const Home = () => {
               <Link
                 to="https://gilded-swan-627c20.netlify.app/"
                 className="link"
+                target="_blank"
               >
                 live
               </Link>
@@ -154,6 +159,7 @@ export const Home = () => {
           <Link
             to="https://gilded-swan-627c20.netlify.app/"
             className="link-image"
+            target="_blank"
           >
             <img src={Todo} alt="" className="project-image" />
           </Link>
@@ -182,16 +188,25 @@ export const Home = () => {
               <Link
                 to="https://github.com/Vardagsbruket/technigo_project-redux-quiz"
                 className="link"
+                target="_blank"
               >
                 Github
               </Link>{" "}
               or{" "}
-              <Link to="https://funn-quizz.netlify.app/" className="link">
+              <Link
+                to="https://funn-quizz.netlify.app/"
+                className="link"
+                target="_blank"
+              >
                 live
               </Link>
             </p>
           </div>
-          <Link to="https://funn-quizz.netlify.app/" className="link-image">
+          <Link
+            to="https://funn-quizz.netlify.app/"
+            className="link-image"
+            target="_blank"
+          >
             <img src={Quiz} alt="" className="project-image" />
           </Link>
         </div>
@@ -219,6 +234,7 @@ export const Home = () => {
               <Link
                 to="https://github.com/Vardagsbruket/technigo_project-happy-thoughts-vite"
                 className="link"
+                target="_blank"
               >
                 Github
               </Link>{" "}
@@ -226,6 +242,7 @@ export const Home = () => {
               <Link
                 to="https://technigo-project-happy-thoughts-app.netlify.app/"
                 className="link"
+                target="_blank"
               >
                 live
               </Link>
@@ -234,6 +251,7 @@ export const Home = () => {
           <Link
             to="https://technigo-project-happy-thoughts-app.netlify.app/"
             className="link-image"
+            target="_blank"
           >
             <img src={happy_thoughts} alt="" className="project-image" />
           </Link>
@@ -260,6 +278,7 @@ export const Home = () => {
               <Link
                 to="https://github.com/Vardagsbruket/technigo_project-movies-vite"
                 className="link"
+                target="_blank"
               >
                 Github
               </Link>{" "}
@@ -267,6 +286,7 @@ export const Home = () => {
               <Link
                 to="https://genuine-pasca-c3840a.netlify.app/"
                 className="link"
+                target="_blank"
               >
                 live
               </Link>
@@ -275,6 +295,7 @@ export const Home = () => {
           <Link
             to="https://genuine-pasca-c3840a.netlify.app/"
             className="link-image"
+            target="_blank"
           >
             <img src={Movies} alt="" className="project-image" />
           </Link>

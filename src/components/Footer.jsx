@@ -6,11 +6,19 @@ export const Footer = () => {
     <div className="footer">
       <div className="social-media">
         <h3>Contact me on:</h3>
-        <Link to="https://github.com/Vardagsbruket" className="links">
+        <Link
+          to="https://github.com/Vardagsbruket"
+          className="links"
+          target="_blank"
+        >
           <i className="fa-brands fa-github"></i>
         </Link>
         {""}
-        <Link to="https://www.linkedin.com/in/dianaunden/" className="links">
+        <Link
+          to="https://www.linkedin.com/in/dianaunden/"
+          className="links"
+          target="_blank"
+        >
           <i className="fa-brands fa-linkedin"></i>
         </Link>
       </div>

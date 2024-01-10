@@ -16,11 +16,19 @@ export const Contact = () => {
         <h3>I´m looking forward to hear from you!</h3>
         <h3>//Diana</h3>
         <div className="contact-social-media">
-          <Link to="https://github.com/Vardagsbruket" className="links">
+          <Link
+            to="https://github.com/Vardagsbruket"
+            className="links"
+            target="_blank"
+          >
             <i className="fa-brands fa-github"></i>
           </Link>
           {""}
-          <Link to="https://www.linkedin.com/in/dianaunden/" className="links">
+          <Link
+            to="https://www.linkedin.com/in/dianaunden/"
+            className="links"
+            target="_blank"
+          >
             <i className="fa-brands fa-linkedin"></i>
           </Link>
         </div>
